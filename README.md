@@ -1,4 +1,4 @@
-# cell-pro-template
+# NEW_REPO
 
 This repository serves only as a Python template for new projects.
 
@@ -8,7 +8,7 @@ This repository serves only as a Python template for new projects.
 - Clone your new repo.
 - Search and replace all occurences of `NEW_REPO`, `AUTHOR_NAME` and `AUTHOR_EMAIL`. Replace `NEW_REPO` with the name of the new repo.
 - Add package requirements in `install_requires` in [`setup.py`](setup.py) and in [`requirements.txt`](requirements.txt) as needed.
-- Replace this `README.md` with a description of and instructions for your new repo.
+- Update this `README.md` with a description of and instructions for your new repo.
 
 ## Development
 
