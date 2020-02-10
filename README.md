@@ -57,3 +57,20 @@ It will also install this package in development mode, so that code changes are 
   ```sh
   pytest --cov-report term-missing --cov=NEW_REPO
   ```
+
+- To activate continuous integration testing on Travis CI, add a `.travis.yml` file with this contents to the repo.
+
+  ```yaml
+  dist: xenial
+  language: python
+  cache: pip
+  python:
+    - "3.6"
+    - "3.7"
+    - "3.8"
+  install:
+    - pip install -U tox-travis
+  script: tox
+  ```
+
+  Note that Travis CI is free for public repos, but requires a subscription for private repos.
