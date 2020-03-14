@@ -59,6 +59,8 @@ It will also install this package in development mode, so that code changes are 
   pytest --cov-report term-missing --cov=NEW_REPO
   ```
 
+- Continous integration is by default supported via [GitHub actions](https://help.github.com/en/actions). GitHub actions is free for public repos and comes with 2000 free Ubuntu build minutes per month for private repos.
+
 - To activate continuous integration testing on Travis CI, add a `.travis.yml` file with this contents to the repo.
 
   ```yaml
